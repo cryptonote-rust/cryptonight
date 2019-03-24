@@ -1,14 +1,14 @@
 #![feature(box_syntax)]
 
-extern crate mithril;
+extern crate cryptonight;
 
-use mithril::byte_string;
-use mithril::cryptonight::hash;
-use mithril::cryptonight::hash::{MEM_SIZE, ebyte_mul};
-use mithril::cryptonight::keccak;
-use mithril::cryptonight::aes;
-use mithril::cryptonight::aes::{AESSupport};
-use mithril::u64x2::{u64x2};
+use cryptonight::byte_string;
+use cryptonight::cryptonight::hash;
+use cryptonight::cryptonight::hash::{MEM_SIZE, ebyte_mul};
+use cryptonight::cryptonight::keccak;
+use cryptonight::cryptonight::aes;
+use cryptonight::cryptonight::aes::{AESSupport};
+use cryptonight::u64x2::{u64x2};
 use std::u64;
 
 #[test]

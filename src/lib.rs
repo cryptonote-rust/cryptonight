@@ -1,4 +1,4 @@
-#![crate_name = "mithril"]
+#![crate_name = "cryptonight"]
 #![crate_type = "lib"]
 
 #![feature(asm)]
@@ -7,8 +7,6 @@
 #![feature(integer_atomics)]
 #![feature(mpsc_select)]
 
-#[macro_use]
-extern crate serde_derive;
 #[macro_use]
 extern crate log;
 

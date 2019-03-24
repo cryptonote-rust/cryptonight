@@ -2,10 +2,10 @@
 #![allow(unreadable_literal)]
 #![allow(inline_always)]
 
-extern crate mithril;
+extern crate cryptonight;
 
-use mithril::cryptonight::sw_aes;
-use mithril::byte_string;
+use cryptonight::cryptonight::sw_aes;
+use cryptonight::byte_string;
 
 #[test]
 fn test_sub_word() {

@@ -1,13 +1,13 @@
 #![allow(unknown_lints)]
 #![allow(unreadable_literal)]
 
-extern crate mithril;
+extern crate cryptonight;
 
-use mithril::cryptonight::aes;
-use mithril::cryptonight::aes::{AESSupport};
-use mithril::cryptonight::keccak;
-use mithril::u64x2::u64x2;
-use mithril::byte_string;
+use cryptonight::cryptonight::aes;
+use cryptonight::cryptonight::aes::{AESSupport};
+use cryptonight::cryptonight::keccak;
+use cryptonight::u64x2::u64x2;
+use cryptonight::byte_string;
 
 #[test]
 fn test_aes_round_hardware() {

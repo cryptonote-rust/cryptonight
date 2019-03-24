@@ -1,7 +1,7 @@
-extern crate mithril;
+extern crate cryptonight;
 
-use mithril::byte_string;
-use mithril::cryptonight::keccak;
+use cryptonight::byte_string;
+use cryptonight::cryptonight::keccak;
 
 #[test]
 fn test_keccak1() {

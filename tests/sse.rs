@@ -1,10 +1,10 @@
 #![allow(unknown_lints)]
 #![allow(unreadable_literal)]
 
-extern crate mithril;
+extern crate cryptonight;
 
-use mithril::cryptonight::sse;
-use mithril::byte_string;
+use cryptonight::cryptonight::sse;
+use cryptonight::byte_string;
 
 #[test]
 fn test_mm_shuffle_epi32_0x55() {

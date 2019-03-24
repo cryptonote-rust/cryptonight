@@ -1,7 +1,7 @@
-extern crate mithril;
+extern crate cryptonight;
 
-use mithril::u64x2::u64x2;
-use mithril::byte_string;
+use cryptonight::u64x2::u64x2;
+use cryptonight::byte_string;
 
 #[test]
 fn test_xor() {
