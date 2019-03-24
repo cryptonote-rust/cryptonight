@@ -22,3 +22,8 @@ bandit = "0.12.0"
 byteorder = "1.2.7"
 tiny-keccak = "1.4.2"
 dirs = "1.0.4"
+
+[badges]
+travis-ci = { repository = "cryptonote-rust/base58", branch = "master" }
+codecov = { repository = "cryptonote-rust/base58", branch = "master", service = "github" }
+
