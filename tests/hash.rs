@@ -3,11 +3,11 @@
 extern crate cryptonight;
 
 use cryptonight::byte_string;
-use cryptonight::cryptonight::hash;
-use cryptonight::cryptonight::hash::{MEM_SIZE, ebyte_mul};
-use cryptonight::cryptonight::keccak;
-use cryptonight::cryptonight::aes;
-use cryptonight::cryptonight::aes::{AESSupport};
+use cryptonight::hash;
+use cryptonight::hash::{MEM_SIZE, ebyte_mul};
+use cryptonight::keccak;
+use cryptonight::aes;
+use cryptonight::aes::{AESSupport};
 use cryptonight::u64x2::{u64x2};
 use std::u64;
 

@@ -4,13 +4,13 @@ extern crate jhffi;
 extern crate skeinffi;
 extern crate byteorder;
 
-use super::keccak;
-use super::aes::{AES};
-use super::common::{as_u64_array, as_u8_array};
+use keccak;
+use aes::{AES};
+use common::{as_u64_array, as_u8_array};
 use u64x2::u64x2;
 use std::boxed::Box;
 use self::groestl::{Digest, Groestl256};
-use super::super::byte_string;
+use byte_string;
 use self::byteorder::{ByteOrder, LittleEndian};
 
 pub const MEM_SIZE : usize = 2_097_152 / 16;

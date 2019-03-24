@@ -1,7 +1,7 @@
 extern crate cryptonight;
 
 use cryptonight::byte_string;
-use cryptonight::cryptonight::keccak;
+use cryptonight::keccak;
 
 #[test]
 fn test_keccak1() {

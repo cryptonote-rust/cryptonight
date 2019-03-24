@@ -2,7 +2,7 @@
 #![allow(unreadable_literal)]
 extern crate tiny_keccak;
 
-use super::common::{as_u8_array};
+use common::{as_u8_array};
 
 const PLEN: usize = 25;
 const TLEN: usize = 144;

@@ -4,7 +4,7 @@
 
 extern crate cryptonight;
 
-use cryptonight::cryptonight::sw_aes;
+use cryptonight::sw_aes;
 use cryptonight::byte_string;
 
 #[test]

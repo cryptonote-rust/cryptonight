@@ -3,7 +3,7 @@
 
 extern crate cryptonight;
 
-use cryptonight::cryptonight::sse;
+use cryptonight::sse;
 use cryptonight::byte_string;
 
 #[test]

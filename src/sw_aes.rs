@@ -3,7 +3,7 @@
 #![allow(unreadable_literal)]
 
 use u64x2::u64x2;
-use cryptonight::sse;
+use sse;
 
 pub fn gen_round_keys(input0: u64x2, input1: u64x2) -> [u64x2;10] {
 

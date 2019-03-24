@@ -3,9 +3,9 @@
 
 extern crate cryptonight;
 
-use cryptonight::cryptonight::aes;
-use cryptonight::cryptonight::aes::{AESSupport};
-use cryptonight::cryptonight::keccak;
+use cryptonight::aes;
+use cryptonight::aes::{AESSupport};
+use cryptonight::keccak;
 use cryptonight::u64x2::u64x2;
 use cryptonight::byte_string;
 
