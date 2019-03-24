@@ -7,6 +7,14 @@
 
 # Usage
 
+```
+use cryptonight::byte_string;
+use cryptonight::hash;
+use cryptonight::hash::{MEM_SIZE, ebyte_mul};
+use cryptonight::aes;
+use cryptonight::aes::{AESSupport};
+```
+
 ## Cryptonight White Paper
 ```
     let aes = aes::new(AESSupport::HW);
