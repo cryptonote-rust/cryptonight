@@ -2,6 +2,9 @@
 name = "cryptonight"
 version = "0.1.0"
 authors = ["calidion@gmail.com", "Michael Bohn <spaceodyssey@gmx.de>"]
+edition = "2018"
+license = "GPL-3.0-or-later"
+description = "Cryptonight for cryptonote"
 
 [dependencies]
 groestl = "0.8.0"

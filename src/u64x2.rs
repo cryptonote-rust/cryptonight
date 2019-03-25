@@ -2,7 +2,7 @@
 use std::ptr::copy_nonoverlapping;
 use std::mem;
 use std::ops::BitXor;
-use sse;
+use crate::sse;
 
 #[allow(non_camel_case_types)]
 #[repr(simd)]

@@ -1,4 +1,4 @@
-use u64x2::u64x2;
+use crate::u64x2::u64x2;
 
 //TODO Rename to hex2_u8_array
 pub fn string_to_u8_array(hex: &str) -> Vec<u8> {

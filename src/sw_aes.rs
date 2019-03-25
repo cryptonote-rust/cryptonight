@@ -2,8 +2,8 @@
 #![allow(inline_always)]
 #![allow(unreadable_literal)]
 
-use u64x2::u64x2;
-use sse;
+use crate::u64x2::u64x2;
+use crate::sse;
 
 pub fn gen_round_keys(input0: u64x2, input1: u64x2) -> [u64x2;10] {
 

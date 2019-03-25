@@ -2,7 +2,7 @@
 use super::hw_aes;
 use super::sw_aes;
 
-use u64x2::u64x2;
+use crate::u64x2::u64x2;
 
 #[derive(Copy, Clone, PartialEq, Debug)]
 pub enum AESSupport{

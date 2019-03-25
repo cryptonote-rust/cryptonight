@@ -1,7 +1,7 @@
 #![allow(unknown_lints)]
 #![allow(inline_always)]
 
-use u64x2::u64x2;
+use crate::u64x2::u64x2;
 
 macro_rules! mm_shuffle_epi32 {
     ($key:expr, $ib:expr, $result:ident) => {

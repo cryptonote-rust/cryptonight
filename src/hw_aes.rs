@@ -1,7 +1,7 @@
 #![allow(unknown_lints)]
 #![allow(inline_always)]
 
-use u64x2::u64x2;
+use crate::u64x2::u64x2;
 
 //taken from https://github.com/RustCrypto/block-ciphers and modified for Cryptonight
 
